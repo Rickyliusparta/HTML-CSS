@@ -1,0 +1,98 @@
+#main-content {
+  height: 75vh;
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+#sidebar {
+  background-color: #192ad6;
+  height: 100%;
+  width: 200px;
+  display: inline-block;
+}
+#content {
+  background-color: orange; 
+  height: 100%;
+  width: 696px;
+  display: inline-block;
+}
+#navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#navigation ul li {
+  display: inline-block;
+  width: 222px;
+  background-color: grey;
+  text-align: center;
+  font-size: 23px;
+  height: 37px;
+  line-height: 37px;
+  color: white;
+  margin-left: 0px;
+}
+#navigation ul li:hover {
+  opacity: 0.8;
+}
+
+#main-header {
+  height: 80px;
+  background-color: pink;
+  padding-left: 10px;
+}
+#main-header h1 {
+  font-size: 50px;
+  line-height: 80px;
+  margin: 0;
+}
+
+#main-header img {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  right: 25px;
+  top: 25px;
+}
+
+@media screen and (max-width: 480px){
+  #main-header h1
+  font-size: 50px;
+
+}
+
+#navigation ul li {
+  display: block;
+  width: 100%;
+  border-bottom: white 1px solid;
+}
+
+#main content{
+  width: 100%
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 850px){
+
+  #main-header h1
+  font-size: 55px;
+}
+
+#navigation ul li{
+  display: block;
+  width: 100%;
+  border-bottom: white;
+}
+
+#main content{
+  width: 100%
+  margin-top: 0px;
+}
+
+#sidebar{
+  display: none;
+}
+
+#content{
+  width: 100%;
+}
